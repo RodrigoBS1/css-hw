@@ -1,0 +1,50 @@
+h1 {
+    font-weight: 600px;
+}
+
+.quick-facts {
+    border: solid;
+    border-color: red;
+}
+
+body {
+    background-image: url("background.avif");
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300px;
+    margin: auto;
+    width: 50%;
+}
+
+main, header, footer {
+    background-color: white;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+img {
+    text-align: center;
+}
+
+
+#headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 20%;
+    border-radius: 10%;
+    border-style: double;
+}
+
+ul, table {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: auto;
